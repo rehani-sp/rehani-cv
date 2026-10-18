@@ -84,9 +84,9 @@
     }
     .icon-btn:active { opacity: .7; }
     .flag { width: 22px; height: 15px; border-radius: 3px; display: block; box-shadow: 0 0 0 1px rgba(0,0,0,.1); }
-    /* The button shows the flag of the language you switch TO (like the moon/sun) */
-    html[data-lang="en"] .flag-en, html[data-lang="de"] .flag-de { display: none; }
-    html[data-theme="light"] .icon-sun, html[data-theme="dark"] .icon-moon { display: none; }
+    /* Each button shows the current state: active language flag, active theme icon */
+    html[data-lang="en"] .flag-de, html[data-lang="de"] .flag-en { display: none; }
+    html[data-theme="light"] .icon-moon, html[data-theme="dark"] .icon-sun { display: none; }
 
     header { padding: 44px 0 8px; text-align: center; }
     .photo {
@@ -237,6 +237,12 @@
         <span class="en">I am a scientist with a background spanning biochemistry, molecular biology and biophysics, with hands-on experience in membrane protein purification, membrane-protein reconstitution, spectroscopy, mammalian cell culture and fluorescence microscopy. Experienced in independently developing and optimizing experimental workflows, troubleshooting complex scientific problems, analyzing experimental data and communicating scientific results to multidisciplinary audiences.</span>
         <span class="de">Ich bin ein hochmotivierter Forscher mit kritischem Denkvermögen, der gerne selbstständig arbeitet, um bedeutende wissenschaftliche Entdeckungen voranzutreiben. Ich blühe in dynamischen, forschungsorientierten Umgebungen auf und habe eine große Leidenschaft dafür, neue Techniken zu erlernen und innovative Arbeitsabläufe zu etablieren. Ich habe meine Forschungsergebnisse einem vielfältigen Publikum vermittelt und interdisziplinär zusammengearbeitet, was entscheidend dazu beigetragen hat, meine Arbeit in der Biochemie und Proteomik voranzubringen.</span>
       </p>
+    </section>
+
+    <section>
+      <h2><span class="en">Skills</span><span class="de">Fähigkeiten</span></h2>
+      <ul class="tags en"><li>Protein purification</li><li>Membrane protein reconstitution</li><li>cwEPR spectroscopy</li><li>Molecular cloning</li><li>Mammalian cell culture</li><li>FRET confocal microscopy</li><li>DLS</li><li>Data analysis</li></ul>
+      <ul class="tags de"><li>Proteinreinigung</li><li>Rekonstitution von Membranproteinen</li><li>cwEPR-Spektroskopie</li><li>Molekulare Klonierung</li><li>Säugetierzellkultur</li><li>FRET-Konfokalmikroskopie</li><li>DLS</li><li>Datenanalyse</li></ul>
     </section>
 
     <section>
@@ -401,12 +407,6 @@
           <div class="side">2019</div>
         </li>
       </ul>
-    </section>
-
-    <section>
-      <h2><span class="en">Skills</span><span class="de">Fähigkeiten</span></h2>
-      <ul class="tags en"><li>Protein purification</li><li>Membrane protein reconstitution</li><li>cwEPR spectroscopy</li><li>Molecular cloning</li><li>Mammalian cell culture</li><li>FRET confocal microscopy</li><li>DLS</li><li>Data analysis</li></ul>
-      <ul class="tags de"><li>Proteinreinigung</li><li>Rekonstitution von Membranproteinen</li><li>cwEPR-Spektroskopie</li><li>Molekulare Klonierung</li><li>Säugetierzellkultur</li><li>FRET-Konfokalmikroskopie</li><li>DLS</li><li>Datenanalyse</li></ul>
     </section>
 
     <section>
